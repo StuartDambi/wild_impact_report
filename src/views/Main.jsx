@@ -9,7 +9,7 @@ const Main = () => {
             expandOnClick: false,
         },
         labels: ['Value Returning to Origin', 'Value remaining in consuming country'],
-        colors: ["#228B22", "#C70039"],
+        colors: ["#5BAE89", "#EA4443"],
         dataLabels: {
             enabled: true,
             enabledOnSeries: undefined,
