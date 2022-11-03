@@ -389,7 +389,7 @@ const Main = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingOne">
                                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    Total Volume Bought<code className="ml-2">- 1000Kgs</code>
+                                                    Total Volume Bought<code className="ml-2"> 1000Kgs</code>
                                                 </button>
                                             </h2>
                                             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -401,7 +401,7 @@ const Main = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingTwo">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Premium Market Price Per Kg<code className="ml-2">- 9.47 USD</code>
+                                                    Premium Market Price Per Kg<code className="ml-2"> 9.47 USD</code>
                                                 </button>
                                             </h2>
                                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -413,7 +413,7 @@ const Main = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingThree">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                    Local Market Price Per Kg<code className="ml-2">- 3.68USD</code>
+                                                    Local Market Price Per Kg<code className="ml-2"> 3.68USD</code>
                                                 </button>
                                             </h2>
                                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -425,7 +425,7 @@ const Main = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingFour">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                                                    Premium Above Market Price<code className="ml-2">- 71.43%</code>
+                                                    Premium Above Market Price<code className="ml-2"> 71.43%</code>
                                                 </button>
                                             </h2>
                                             <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -437,7 +437,7 @@ const Main = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingFive">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                                                    Total Payment to Farmer <code className="ml-2">- 6316 USD</code>
+                                                    Total Payment to Farmer <code className="ml-2"> 6316 USD</code>
                                                 </button>
                                             </h2>
                                             <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
@@ -449,7 +449,7 @@ const Main = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingFive">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-                                                    Total Above Market Price<code className="ml-2">- 2632 USD</code>
+                                                    Total Above Market Price<code className="ml-2"> 2632 USD</code>
                                                 </button>
                                             </h2>
                                             <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
