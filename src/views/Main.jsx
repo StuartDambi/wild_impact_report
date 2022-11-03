@@ -325,7 +325,8 @@ const Main = () => {
                         </section>
 
                         {/* Impact Graph */}
-                        <section className="container">
+                        <section className="container" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                            <h1 className="mb-4">Premium Vs Local Market Prices</h1>
                             <div className="row">
                                 <div className="col-md-8 col-sm-12">
                                     <Chart
@@ -378,7 +379,7 @@ const Main = () => {
                                             </h2>
                                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
-                                                    9.47USD
+                                                    9.47 USD
                                                 </div>
                                             </div>
                                         </div>
@@ -390,7 +391,7 @@ const Main = () => {
                                             </h2>
                                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
-                                                    3.68USD
+                                                    3.68 USD
                                                 </div>
                                             </div>
                                         </div>
@@ -414,7 +415,7 @@ const Main = () => {
                                             </h2>
                                             <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
-                                                    6316USD
+                                                    6316 USD
                                                 </div>
                                             </div>
                                         </div>
@@ -426,7 +427,7 @@ const Main = () => {
                                             </h2>
                                             <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
-                                                    2632USD
+                                                    2632 USD
                                                 </div>
                                             </div>
                                         </div>
