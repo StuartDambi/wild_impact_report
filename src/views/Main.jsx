@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import Chart from 'react-apexcharts';
 import { useEffect } from "react";
+import Map from "./Map";
 
 const Main = () => {
     const [wildOptions] = useState({
@@ -344,7 +345,7 @@ const Main = () => {
 
                                         <div className="col-md-12 col-sm-12">
                                             {/* Map Area */}
-                                            <div ref={ref}></div>
+                                            <Map />
                                         </div>
                                     </section>
                                 </div>
