@@ -402,12 +402,12 @@ const Main = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingTwo">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Premium Market Price Per Kg<code className="ml-2"> 9.47 USD</code>
+                                                    Premium Market Price Per Kg<code className="ml-2"> 6.32 USD</code>
                                                 </button>
                                             </h2>
                                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                 <div className="accordion-body">
-                                                    9.47 USD
+                                                    6.32 USD
                                                 </div>
                                             </div>
                                         </div>
