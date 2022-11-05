@@ -128,8 +128,8 @@ const Main = () => {
                                                 <div className="col-12 col-sm-8 col-lg-6">
                                                     {/* <!-- Section Heading--> */}
                                                     <div className="section_heading text-center">
-                                                        <h6>Timeline</h6>
-                                                        <h3>A nice heading for the coffee journey</h3>
+                                                        {/* <h6>Timeline</h6> */}
+                                                        <h3>Timeline</h3>
                                                         <div className="line"></div>
                                                     </div>
                                                 </div>
@@ -149,7 +149,7 @@ const Main = () => {
                                                                         <div className="timeline-icon"><i className="fa fa-address-card" aria-hidden="true"></i></div>
                                                                         <div className="timeline-text">
                                                                             <h6>Harvesting</h6>
-                                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                                            <p>This coffee was harvested November-December 2021.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -184,7 +184,7 @@ const Main = () => {
                                                                         <div className="timeline-icon"><i className="fa fa-briefcase" aria-hidden="true"></i></div>
                                                                         <div className="timeline-text">
                                                                             <h6>Processing</h6>
-                                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                                            <p>Hulling, cleaning and sorting.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -201,7 +201,7 @@ const Main = () => {
                                                                         <div className="timeline-icon"><i className="fa fa-id-card" aria-hidden="true"></i></div>
                                                                         <div className="timeline-text">
                                                                             <h6>Warehouse</h6>
-                                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                                            <p>Arrival at our Kamala warehouse.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -218,7 +218,7 @@ const Main = () => {
                                                                         <div className="timeline-icon"><i className="fa fa-id-card" aria-hidden="true"></i></div>
                                                                         <div className="timeline-text">
                                                                             <h6>Coffee Roasting</h6>
-                                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                                            <p>At our roastery in Kampala.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -235,7 +235,7 @@ const Main = () => {
                                                                         <div className="timeline-icon"><i className="fa fa-id-card" aria-hidden="true"></i></div>
                                                                         <div className="timeline-text">
                                                                             <h6>Coffee Exporting</h6>
-                                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                                            <p>Freshly roasted directly to you!.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -250,7 +250,7 @@ const Main = () => {
                                 <div className="col-md-5 col-sm-12">
                                     <section className="timeline_area section_padding_130">
 
-                                        <h3 className="mb-4">Map Area of Coffee Region of Farmer</h3>
+                                        <h3 className="mb-4">Coffee origin</h3>
 
                                         <div className="col-md-12 col-sm-12">
                                             {/* Map Area */}
