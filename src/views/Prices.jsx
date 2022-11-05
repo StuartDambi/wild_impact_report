@@ -14,7 +14,7 @@ export default function Prices() {
                                 data: [3.68, 3.68]
                             },
                             {
-                                name: "Premium Market Price",
+                                name: "Price Paid to Farmer",
                                 data: [6.32, 6.32]
                             }
                         ]}
@@ -52,7 +52,7 @@ export default function Prices() {
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingTwo">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Premium Market Price Per Kg<code className="ml-2" style={{ color: "#B2453F" }}> 6.32 USD</code>
+                                    Price paid to Farmer<code className="ml-2" style={{ color: "#B2453F" }}> 6.32 USD</code>
                                 </button>
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">

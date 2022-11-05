@@ -89,11 +89,11 @@ export default function FootPrint() {
                                         // }]}
                                         series={[
                                             {
-                                                name: 'Negative Carbon FootPrint',
+                                                name: 'Carbon Footprint',
                                                 data: [3.1, 0.2, 0.1, 0.4, 7.0, 0,]
                                             },
                                             {
-                                                name: 'Positive Carbon FootPrint',
+                                                name: 'Carbon Offset',
                                                 data: [0, 0, 0, 0, 0, -22, -11.2]
                                             }
                                         ]}

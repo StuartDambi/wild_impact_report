@@ -82,8 +82,8 @@ const Main = () => {
                             </div>
                         </section>
 
-                        <div className="d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ background: "#FDEDCF" }}>
-                            <h2 className="text-dark mt-4" style={{ paddingLeft: "40px", paddingTop: "40px" }} >Value Return Rate</h2>
+                        <div className="d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ background: "#ADD6C4" }}>
+                            <h2 className="text-dark mt-4" style={{ paddingLeft: "40px", paddingTop: "20px" }} >Value Return Rate</h2>
                             <div className="row mt-4" style={{ paddingLeft: "40px", paddingBottom: '20px' }} >
                                 <div className="col-md-5">
                                     <p className="text-dark mb-3">Coffee From Traditional Coffee Industry: </p>
