@@ -108,32 +108,32 @@ export default function FootPrint() {
                                         </thead>
                                         <tbody>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#5BAE89"}}>Farm</td>
+                                                <td>Farm</td>
                                                 <td style={{backgroundColor: '#EA4443'}} className="text-white">3.1</td>
                                             </tr>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#5BAE89"}}>Processing</td>
+                                                <td>Processing</td>
                                                 <td style={{backgroundColor: '#EA4443'}} className="text-white">0.2</td>
                                             </tr>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#5BAE89"}}>Administration</td>
+                                                <td>Administration</td>
                                                 <td style={{backgroundColor: '#EA4443'}} className="text-white">0.1</td>
                                             </tr>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#5BAE89"}}>Transport - Local</td>
+                                                <td>Transport - Local</td>
                                                 <td style={{backgroundColor: '#EA4443'}} className="text-white">0.4</td>
                                             </tr>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#5BAE89"}}>Transport - Export</td>
+                                                <td>Transport - Export</td>
                                                 <td style={{backgroundColor: '#EA4443'}} className="text-white">7.0</td>
                                             </tr>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#5BAE89"}}>Carbon Offset</td>
-                                                <td style={{backgroundColor: '#EA4443'}} className="text-white">-22</td>
+                                                <td>Carbon Offset</td>
+                                                <td style={{backgroundColor: '#EFB94F'}} className="text-white">-22</td>
                                             </tr>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#5BAE89"}}>Final Carbon Footprint</td>
-                                                <td style={{backgroundColor: '#EA4443'}} className="text-white">-11.2</td>
+                                                <td>Final Carbon Footprint</td>
+                                                <td style={{backgroundColor: '#5BAE89'}} className="text-white">-11.2</td>
                                             </tr>
                                         </tbody>
                                     </table>
