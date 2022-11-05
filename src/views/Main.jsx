@@ -71,9 +71,19 @@ const Main = () => {
                         <Prices />
                         
 
-                        <div className="d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ background: "#D3D3D3" }}>
-                            <h4 className="mb-2" style={{ paddingLeft: "40px", paddingTop: "40px" }}>Where does the money go?</h4>
-                            <h2 className="text-dark mt-4" style={{ paddingLeft: "40px", paddingTop: "10px" }} >Value Return Rate</h2>
+                        <section data-aos="fade-up" data-aos-delay="200">
+                            <div className="container">
+
+                                    <h3 className="text-dark">Where does the money go?</h3>
+                                    <p>One of the key numbers for us is how much value we can return to the origin of coffee. Let’s see how the coffee you are now drinking compares to a cup from the traditional coffee industry.</p>
+                                    <p className="mt-4">
+                                        If we are to reduce global inequality, move value needs to benefit the coffee producing countries
+                                    </p>
+                            </div>
+                        </section>
+
+                        <div className="d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ background: "#FDEDCF" }}>
+                            <h2 className="text-dark mt-4" style={{ paddingLeft: "40px", paddingTop: "40px" }} >Value Return Rate</h2>
                             <div className="row mt-4" style={{ paddingLeft: "40px", paddingBottom: '20px' }} >
                                 <div className="col-md-5">
                                     <p className="text-dark mb-3">Coffee From Traditional Coffee Industry: </p>
