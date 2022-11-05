@@ -109,7 +109,8 @@ const Main = () => {
                                 <div className="container-fluid">
                                     <div className="wrapper row">
                                         <div className="col-md-6 preview">
-                                            <img src="/olive-kishero.jpg" width={400} height={400} alt="olive_kishero_coffee_farmer" />
+                                            {/* <img src="/olive-kishero.jpg" width={400} height={400} alt="olive_kishero_coffee_farmer" /> */}
+                                            <iframe width="450" height="400" src="https://www.youtube.com/embed/lIawi-bPUsk" title="Wild Coffee Farmer: Olive Kishero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                         </div>
                                         <div className="col-md-6 details">
                                             <h3 className="mb-3">Olive Kishero - speciality coffee from Mt Elgon</h3>
@@ -129,9 +130,9 @@ const Main = () => {
 
                                                 Meet Olive and some of her children in our video portrait:
                                             </p>
-                                            <button className="btn btn-dark">
-                                                <i className="bi bi-play-circle"></i><span className="ml-2">Watch Video</span>
-                                            </button>
+                                            <a href="https://www.wild.coffee" target="_blank" rel="noreferrer" className="btn btn-dark">
+                                                <i className="fa fa-external-link"></i><span className="ml-2">Learn More</span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
