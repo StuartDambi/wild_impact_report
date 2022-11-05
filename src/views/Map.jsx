@@ -1,4 +1,4 @@
-import { GoogleMap, useLoadScript } from "@react-google-maps/api";
+import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
 
 const mapContainerStyle = {
     width: "100vh",
@@ -25,6 +25,15 @@ export default function Map() {
             mapContainerStyle={mapContainerStyle}
             zoom={11}
             center={center}
-         />
+        >
+            <MarkerF
+                onLoad={(marker) => console.log('loaded marker', marker)}
+                position={{
+                    lat: 34.35,
+                    lng: 1.283333
+                }}
+                icon="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/map-marker-512.png"
+            />
+        </GoogleMap>
     )
 }

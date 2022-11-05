@@ -4,6 +4,9 @@ import { useEffect } from "react";
 import Map from "./Map";
 import CoffeeLots from "./CofffeeLot";
 import FootPrint from "./FootPrint";
+import Farmer from "./Farmer";
+import Video from "./Video";
+import Prices from "./Prices";
 
 const Main = () => {
     const [wildOptions] = useState({
@@ -55,6 +58,12 @@ const Main = () => {
                             </p>
                         </div>
 
+                        <Farmer />
+                        <Video />
+                        <CoffeeLots />
+                        <Prices />
+                        <FootPrint />
+
                         <div className="d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ background: "#D3D3D3" }}>
                             <h2 className="text-dark mt-4" style={{ paddingLeft: "40px", paddingTop: "40px" }}>Value Return Rate</h2>
                             <div className="row mt-4" style={{ paddingLeft: "40px", paddingBottom: '20px' }} >
@@ -99,45 +108,7 @@ const Main = () => {
 
                         </div>
 
-                        <section id="why-us" className="why-us">
-                            <div className="container" data-aos="fade-up">
-
-                                <div className="section-header">
-                                    <h2>Meet the Farmer</h2>
-                                </div>
-
-                                <div className="container-fluid">
-                                    <div className="wrapper row">
-                                        <div className="col-md-6 preview">
-                                            {/* <img src="/olive-kishero.jpg" width={400} height={400} alt="olive_kishero_coffee_farmer" /> */}
-                                            <iframe width="450" height="400" src="https://www.youtube.com/embed/lIawi-bPUsk" title="Wild Coffee Farmer: Olive Kishero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                        </div>
-                                        <div className="col-md-6 details">
-                                            <h3 className="mb-3">Olive Kishero - speciality coffee from Mt Elgon</h3>
-
-                                            <p >
-                                                It's the hardest work
-                                                Growing quality coffee is tough. It takes a special kind of farmer, with a unique perseverance, who never lets challenges and setbacks pull her down. One who year after year keeps improving, and never falls for temptations of doing shortcuts and pocket some quick money.
-
-                                                Olive Kishero is one of those rare ones.
-
-                                                "Growing coffee involves a lot of commitment. It’s the hardest work. You have to use all your energy at every stage."
-                                                But the hard work has paid off. Olive came second in the Ugandan Taste of Harvest competition in 2019. When it comes to specialty coffee from Mt Elgon, Olive certainly ranks among the best.
-
-                                                Olive has been in the coffee industry since 1989. Despite the challenges, she has been able to make sure all her seven children have received a higher education.
-
-                                                "Since my children were young I have trained them to handle the coffee growing. They used to call this mummy's things. "We are tired of mummy's things" they said."
-
-                                                Meet Olive and some of her children in our video portrait:
-                                            </p>
-                                            <a href="https://www.wild.coffee" target="_blank" rel="noreferrer" className="btn btn-dark">
-                                                <i className="fa fa-external-link"></i><span className="ml-2">Learn More</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+                        
 
 
                         {/* Timeline Start */}
@@ -284,121 +255,7 @@ const Main = () => {
                         </div>
 
                         {/* Impact Graph */}
-                        <section className="container" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                            <h1 className="mb-4 text-dark">Premium Vs Local Market Prices</h1>
-                            <div className="row">
-                                <div className="col-md-6 col-sm-12">
-                                    <Chart
-                                        type="area"
-                                        series={[
-                                            {
-                                                name: "Local Market Price",
-                                                data: [3.68, 3.68]
-                                            },
-                                            {
-                                                name: "Premium Market Price",
-                                                data: [6.32, 6.32]
-                                            }
-                                        ]}
-                                        options={{
-                                            colors: ["#6692D9", "#5BAE89"],
-                                            stroke: {
-                                                curve: 'smooth'
-                                            },
-                                            xaxis: {
-                                                type: 'datetime',
-                                                categories: ["2021-10-19T00:00:00.000Z", "2021-10-19T03:00:00.000Z",]
-                                            },
-                                            tooltip: {
-                                                x: {
-                                                    format: 'dd/MM/yy HH:mm'
-                                                }
-                                            }
-                                        }}
-                                    />
-                                </div>
-                                <div className="col-md-6 col-sm-12">
-                                    <div className="accordion" id="accordionExample">
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="headingOne">
-                                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    Total Volume Bought<code className="ml-2" style={{ color: "#B2453F" }}> 1000Kgs</code>
-                                                </button>
-                                            </h2>
-                                            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                <div className="accordion-body">
-                                                    1000kgs (And some more Description)
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="headingTwo">
-                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Premium Market Price Per Kg<code className="ml-2" style={{ color: "#B2453F" }}> 6.32 USD</code>
-                                                </button>
-                                            </h2>
-                                            <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                <div className="accordion-body">
-                                                    6.32 USD
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="headingThree">
-                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                    Local Market Price Per Kg<code className="ml-2" style={{ color: "#B2453F" }}> 3.68USD</code>
-                                                </button>
-                                            </h2>
-                                            <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                <div className="accordion-body">
-                                                    3.68 USD
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="headingFour">
-                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                                                    Premium Above Market Price<code className="ml-2" style={{ color: "#B2453F" }}> 71.43%</code>
-                                                </button>
-                                            </h2>
-                                            <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                                <div className="accordion-body">
-                                                    71.43%
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="headingFive">
-                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                                                    Total Payment to Farmer <code className="ml-2" style={{ color: "#B2453F" }}> 6316 USD</code>
-                                                </button>
-                                            </h2>
-                                            <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                                <div className="accordion-body">
-                                                    6316 USD
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="headingFive">
-                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-                                                    Total Above Market Price<code className="ml-2" style={{ color: "#B2453F" }}> 2632 USD</code>
-                                                </button>
-                                            </h2>
-                                            <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                                                <div className="accordion-body">
-                                                    2632 USD
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </section>
-
-                        <CoffeeLots />
-                        <FootPrint />
+                    
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ export default function CoffeeLots() {
                     <div className="container-fliud">
                         <div className="wrapper row">
                             <div className="preview col-md-6">
-                                <img src="https://via.placeholder.com/500x400" alt="cofffee_kishero" />
+                                <img src="/OliveKisheroandIbraWild.jpg" width={500} height={400} alt="cofffee_kishero" />
                             </div>
                             <div className="details col-md-6">
                                 <h3 className="mt-4 text-dark">The Pearl</h3>

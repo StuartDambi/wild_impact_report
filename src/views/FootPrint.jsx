@@ -2,19 +2,6 @@
 import Chart from 'react-apexcharts';
 
 var options = {
-    series: [{
-        name: 'Males',
-        data: [0.4, 0.65, 0.76, 0.88, 1.5, 2.1, 2.9, 3.8, 3.9, 4.2, 4, 4.3, 4.1, 4.2, 4.5,
-            3.9, 3.5, 3
-        ]
-    },
-    {
-        name: 'Females',
-        data: [-0.8, -1.05, -1.06, -1.18, -1.4, -2.2, -2.85, -3.7, -3.96, -4.22, -4.3, -4.4,
-        -4.1, -4, -4.1, -3.4, -3.1, -2.8
-        ]
-    }
-    ],
     chart: {
         type: 'bar',
         height: 440,
@@ -98,11 +85,11 @@ export default function FootPrint() {
                                     // }]}
                                     series={[
                                         {
-                                            name: 'Carbon FootPrint',
+                                            name: 'Negative Carbon FootPrint',
                                             data: [3.1, 0.2, 0.1, 0.4, 7.0, 0,]
                                         },
                                         {
-                                            name: 'Carbon FootPrint',
+                                            name: 'Positive Carbon FootPrint',
                                             data: [0,0,0,0,0, -22,-11.2]
                                         }
                                     ]}
