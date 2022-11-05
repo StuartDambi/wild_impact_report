@@ -6,7 +6,7 @@ export default function Video() {
                 <div className="container-fluid">
                     <div className="wrapper row d-flex justify-content-center">
                         <div className="col-md-12 preview">
-                            <iframe width="966" height="543" src="https://www.youtube.com/embed/lIawi-bPUsk" title="Wild Coffee Farmer: Olive Kishero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="966" height="543" src="https://www.youtube.com/embed/lIawi-bPUsk" title="Wild Coffee Farmer: Olive Kishero" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </div>
                 </div>

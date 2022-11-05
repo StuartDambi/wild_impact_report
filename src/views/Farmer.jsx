@@ -21,16 +21,20 @@ export default function Farmer() {
                                 Growing quality coffee is tough. It takes a special kind of farmer, with a unique perseverance, who never lets challenges and setbacks pull her down. One who year after year keeps improving, and never falls for temptations of doing shortcuts and pocket some quick money.
 
                                 Olive Kishero is one of those rare ones.
+                                </p>
 
-                                "Growing coffee involves a lot of commitment. It’s the hardest work. You have to use all your energy at every stage."
+                                <p style={{ fontStyle: "italic" }}>"Growing coffee involves a lot of commitment. It’s the hardest work. You have to use all your energy at every stage."</p>
+                                <p>
                                 But the hard work has paid off. Olive came second in the Ugandan Taste of Harvest competition in 2019. When it comes to specialty coffee from Mt Elgon, Olive certainly ranks among the best.
 
-                                Olive has been in the coffee industry since 1989. Despite the challenges, she has been able to make sure all her seven children have received a higher education.
+Olive has been in the coffee industry since 1989. Despite the challenges, she has been able to make sure all her seven children have received a higher education.
 
-                                "Since my children were young I have trained them to handle the coffee growing. They used to call this mummy's things. "We are tired of mummy's things" they said."
+"Since my children were young I have trained them to handle the coffee growing. They used to call this mummy's things. "We are tired of mummy's things" they said."
 
-                                Meet Olive and some of her children in our video portrait:
-                            </p>
+Meet Olive and some of her children in our video portrait:
+                                </p>
+                                
+                            
                             <a href="https://www.wild.coffee" target="_blank" rel="noreferrer" className="btn btn-dark">
                                 <i className="fa fa-external-link"></i><span className="ml-2">Learn More</span>
                             </a>

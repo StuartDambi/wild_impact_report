@@ -3,7 +3,7 @@ import Chart from 'react-apexcharts';
 export default function Prices() {
     return (
         <section className="container" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-            <h1 className="mb-4 text-dark">Premium Vs Local Market Prices</h1>
+            <h1 className="mb-4 text-dark">Price paid vs Local market price</h1>
             <div className="row">
                 <div className="col-md-6 col-sm-12">
                     <Chart
@@ -45,7 +45,7 @@ export default function Prices() {
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    1000kgs (And some more Description)
+                                This coffee was purchased as parchment. The purchased parchment became 600 kg roasted coffee.
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ export default function Prices() {
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    6.32 USD
+                                This is what we paid the farmer.
                                 </div>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ export default function Prices() {
                             </h2>
                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    3.68 USD
+                                This is what farmers were offered for their coffee from other buyers at this specific time and location.
                                 </div>
                             </div>
                         </div>
