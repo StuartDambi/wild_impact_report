@@ -103,7 +103,7 @@ const Main = () => {
 
                         <div className="d-flex flex-column" style={{ paddingTop: "10px", paddingLeft: "10px" }}>
                             <div className="row mt-4 p-3">
-                                <div className="col-md-12 p-2" style={{ background: "#D3D3D3", paddingLeft: "40px" }}>
+                                <div className="col-md-12 p-2" style={{ background: "#CFECE1", paddingLeft: "40px" }}>
                                     <div className="box mt-4">
                                         <h3 className="text-dark">Impact Improvement Rate</h3>
                                         <h1 className="text-dark display-1 w-100">7X</h1>
