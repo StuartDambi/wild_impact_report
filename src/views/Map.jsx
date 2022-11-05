@@ -5,6 +5,8 @@ const mapContainerStyle = {
     height: "90vh"
 };
 
+// Put Pin / Marker to Buginyanya
+
 const center = {
     lat: 0.8500,
     lng: 34.7167,

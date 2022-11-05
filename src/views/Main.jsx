@@ -2,6 +2,7 @@ import { useState, useRef } from "react";
 import Chart from 'react-apexcharts';
 import { useEffect } from "react";
 import Map from "./Map";
+import CoffeeLots from "./CofffeeLot";
 
 const Main = () => {
     const [wildOptions] = useState({
@@ -356,17 +357,17 @@ const Main = () => {
                         <section className="container" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                             <h1 className="mb-4">Premium Vs Local Market Prices</h1>
                             <div className="row">
-                                <div className="col-md-8 col-sm-12">
+                                <div className="col-md-6 col-sm-12">
                                     <Chart
                                         type="area"
                                         series={[
                                             {
                                                 name: "Local Market Price",
-                                                data: [0, 3.68, 3.68, 3.68, 3.68]
+                                                data: [3.68, 3.68]
                                             },
                                             {
                                                 name: "Premium Market Price",
-                                                data: [0, 6.32, 6.32, 6.32, 6.32]
+                                                data: [6.32, 6.32]
                                             }
                                         ]}
                                         options={{
@@ -375,7 +376,7 @@ const Main = () => {
                                             },
                                             xaxis: {
                                                 type: 'datetime',
-                                                categories: ["2021-10-19T00:00:00.000Z", "2021-10-19T00:00:00.000Z", "2021-10-19T01:00:00.000Z", "2021-10-19T02:00:00.000Z", "2021-10-19T03:00:00.000Z", "2021-10-19T04:00:00.000Z", "2021-10-19T05:00:00.000Z"]
+                                                categories: ["2021-10-19T00:00:00.000Z", "2021-10-19T03:00:00.000Z",]
                                             },
                                             tooltip: {
                                                 x: {
@@ -385,7 +386,7 @@ const Main = () => {
                                         }}
                                     />
                                 </div>
-                                <div className="col-md-4 col-sm-12">
+                                <div className="col-md-6 col-sm-12">
                                     <div className="accordion" id="accordionExample">
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingOne">
@@ -464,6 +465,8 @@ const Main = () => {
                             </div>
 
                         </section>
+
+                        <CoffeeLots />
                     </div>
                 </div>
             </div>
