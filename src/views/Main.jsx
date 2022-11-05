@@ -3,6 +3,7 @@ import Chart from 'react-apexcharts';
 import { useEffect } from "react";
 import Map from "./Map";
 import CoffeeLots from "./CofffeeLot";
+import FootPrint from "./FootPrint";
 
 const Main = () => {
     const [wildOptions] = useState({
@@ -467,6 +468,7 @@ const Main = () => {
                         </section>
 
                         <CoffeeLots />
+                        <FootPrint />
                     </div>
                 </div>
             </div>
