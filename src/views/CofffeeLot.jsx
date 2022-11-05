@@ -2,7 +2,7 @@ export default function CoffeeLots() {
     return (
         <section data-aos="fade-up" data-aos-delay="200">
             <div className="container">
-                <h3 className="mb-4">Coffee Lot Details</h3>
+                <h3 className="mb-4 text-dark">Coffee Lot Details</h3>
                 <div className="card">
                     <div className="container-fliud">
                         <div className="wrapper row">
@@ -58,13 +58,13 @@ export default function CoffeeLots() {
                                                         <div className="progress-bar bg-success" role="progressbar" style={{width: "10%"}} aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
                                                         <div className="progress-bar bg-success" role="progressbar" style={{width: "10%"}} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">3</div>
                                                         <div className="progress-bar bg-success" role="progressbar" style={{width: "10%"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        <div className="progress-bar bg-info" role="progressbar" style={{width: "10%"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        <div className="progress-bar bg-info" role="progressbar" style={{width: "10%"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        <div className="progress-bar bg-info" role="progressbar" style={{width: "10%"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        <div className="progress-bar bg-info" role="progressbar" style={{width: "10%"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        <div className="progress-bar bg-info" role="progressbar" style={{width: "10%"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        <div className="progress-bar bg-info" role="progressbar" style={{width: "10%"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        <div className="progress-bar bg-info" role="progressbar" style={{width: "10%"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div className="progress-bar" role="progressbar" style={{width: "10%", background: "gray"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div className="progress-bar" role="progressbar" style={{width: "10%", background: "gray"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div className="progress-bar" role="progressbar" style={{width: "10%", background: "gray"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div className="progress-bar" role="progressbar" style={{width: "10%", background: "gray"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div className="progress-bar" role="progressbar" style={{width: "10%", background: "gray"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div className="progress-bar" role="progressbar" style={{width: "10%", background: "gray"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div className="progress-bar" role="progressbar" style={{width: "10%", background: "gray"}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                 </td>
                                             </tr>

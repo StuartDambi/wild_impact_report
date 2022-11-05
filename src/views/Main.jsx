@@ -104,46 +104,37 @@ const Main = () => {
 
                                 <div className="section-header">
                                     <h2>Meet the Farmer</h2>
-
                                 </div>
 
-                                <div className="row g-0" data-aos="fade-up" data-aos-delay="200">
+                                <div className="container-fluid">
+                                    <div className="wrapper row">
+                                        <div className="col-md-6 preview">
+                                            <img src="/olive-kishero.jpg" width={400} height={400} alt="olive_kishero_coffee_farmer" />
+                                        </div>
+                                        <div className="col-md-6 details">
+                                            <h3 className="mb-3">Olive Kishero - speciality coffee from Mt Elgon</h3>
 
-                                    <div className="col-xl-5 img-bg" style={{ backgroundImage: "url('/olive-kishero.jpg')" }}></div>
-                                    <div className="col-xl-7 slides  position-relative">
+                                            <p >
+                                                It's the hardest work
+                                                Growing quality coffee is tough. It takes a special kind of farmer, with a unique perseverance, who never lets challenges and setbacks pull her down. One who year after year keeps improving, and never falls for temptations of doing shortcuts and pocket some quick money.
 
-                                        <div className="slides-1 swiper">
-                                            <div className="swiper-wrapper">
+                                                Olive Kishero is one of those rare ones.
 
-                                                <div className="swiper-slide">
-                                                    <div className="item">
-                                                        <h3 className="mb-3">Olive Kishero - speciality coffee from Mt Elgon</h3>
-                                                        <h4 className="mb-3">
-                                                            Coffee celebrities? Sure, the coffee industry may have a few hot roasters and baristas, regularly featured in mainstream media and enjoying a respectable following online. But the coffee farmers? The sad fact is, the vast majority of them keep toiling in total anonymity.
-                                                        </h4>
-                                                        <p>
-                                                            We want to change this. Every farmer deserves to be celebrated for the wonderful product they grow for us.
+                                                "Growing coffee involves a lot of commitment. It’s the hardest work. You have to use all your energy at every stage."
+                                                But the hard work has paid off. Olive came second in the Ugandan Taste of Harvest competition in 2019. When it comes to specialty coffee from Mt Elgon, Olive certainly ranks among the best.
 
-                                                            Olive Kishero is that rare exception: A coffee farmer who has been featured a few times in media. Ok, it's not a lot. We can't say she's famous. But at least, she has a few times managed to break out of the seclusion of the coffee garden and enjoyed some moments in the spotlight. For this, we are very happy for her!
+                                                Olive has been in the coffee industry since 1989. Despite the challenges, she has been able to make sure all her seven children have received a higher education.
 
-                                                        </p>
-                                                    </div>
-                                                    {/* <a href="https://www.youtube.com/watch?v=lIawi-bPUsk" className="glightbox btn-get-started primary d-flex align-items-center"><i className="bi bi-play-circle"></i><span>Watch Video</span></a> */}
-                                                    <a href="https://www.wild.coffee/blog/wild-stories-1/olive-kishero-specialty-coffee-from-mt-elgon-2" target="_blank" rel="noreferrer" className="btn btn-outline-dark mr-2">
-                                                        <span>Learn More</span>
-                                                    </a>
-                                                    <a href="https://www.youtube.com/watch?v=lIawi-bPUsk" target="_blank" rel="noreferrer" className="btn btn-dark mr-2">
-                                                        <i className="bi bi-play-circle"></i><span className="ml-2">Watch Video</span>
-                                                    </a>
-                                                </div>
+                                                "Since my children were young I have trained them to handle the coffee growing. They used to call this mummy's things. "We are tired of mummy's things" they said."
 
-                                            </div>
-                                            <div className="swiper-pagination"></div>
+                                                Meet Olive and some of her children in our video portrait:
+                                            </p>
+                                            <button className="btn btn-dark">
+                                                <i className="bi bi-play-circle"></i><span className="ml-2">Watch Video</span>
+                                            </button>
                                         </div>
                                     </div>
-
                                 </div>
-
                             </div>
                         </section>
 
@@ -218,15 +209,6 @@ const Main = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                {/* <div className="col-12 col-md-6 col-lg-4">
-                                                        <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style={{ visibility: "visible", animationDelay: "0.5s", animationName: "fadeInLeft" }}>
-                                                            <div className="timeline-icon"><i className="fa fa-desktop" aria-hidden="true"></i></div>
-                                                            <div className="timeline-text">
-                                                                <h6>Fixed bug</h6>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div> */}
                                                             </div>
                                                         </div>
                                                         {/* <!-- Single Timeline Content--> */}
@@ -244,24 +226,6 @@ const Main = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                {/* <div className="col-12 col-md-6 col-lg-4">
-                                                        <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style={{ visibility: "visible", animationDelay: "0.5s", animationName: "fadeInLeft" }}>
-                                                            <div className="timeline-icon"><i className="fa fa-desktop" aria-hidden="true"></i></div>
-                                                            <div className="timeline-text">
-                                                                <h6>Fixed bug</h6>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-12 col-md-6 col-lg-4">
-                                                        <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style={{ visibility: "visible", animationDelay: "0.7s", animationName: "fadeInLeft" }}>
-                                                            <div className="timeline-icon"><i className="fa fa-picture-o" aria-hidden="true"></i></div>
-                                                            <div className="timeline-text">
-                                                                <h6>Reach 500 Users</h6>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div> */}
                                                             </div>
                                                         </div>
                                                         {/* <!-- Single Timeline Content--> */}
@@ -279,24 +243,6 @@ const Main = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                {/* <div className="col-12 col-md-6 col-lg-4">
-                                                        <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style={{ visibility: "visible", animationDelay: "0.5s", animationName: "fadeInLeft" }}>
-                                                            <div className="timeline-icon"><i className="fa fa-desktop" aria-hidden="true"></i></div>
-                                                            <div className="timeline-text">
-                                                                <h6>Fixed bug</h6>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-12 col-md-6 col-lg-4">
-                                                        <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style={{ visibility: "visible", animationDelay: "0.7s", animationName: "fadeInLeft" }}>
-                                                            <div className="timeline-icon"><i className="fa fa-picture-o" aria-hidden="true"></i></div>
-                                                            <div className="timeline-text">
-                                                                <h6>Reach 500 Users</h6>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div> */}
                                                             </div>
                                                         </div>
                                                         {/* <!-- Single Timeline Content--> */}
@@ -314,24 +260,6 @@ const Main = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                {/* <div className="col-12 col-md-6 col-lg-4">
-                                                        <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style={{ visibility: "visible", animationDelay: "0.5s", animationName: "fadeInLeft" }}>
-                                                            <div className="timeline-icon"><i className="fa fa-desktop" aria-hidden="true"></i></div>
-                                                            <div className="timeline-text">
-                                                                <h6>Fixed bug</h6>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-12 col-md-6 col-lg-4">
-                                                        <div className="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style={{ visibility: "visible", animationDelay: "0.7s", animationName: "fadeInLeft" }}>
-                                                            <div className="timeline-icon"><i className="fa fa-picture-o" aria-hidden="true"></i></div>
-                                                            <div className="timeline-text">
-                                                                <h6>Reach 500 Users</h6>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div> */}
                                                             </div>
                                                         </div>
                                                     </div>
@@ -356,7 +284,7 @@ const Main = () => {
 
                         {/* Impact Graph */}
                         <section className="container" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                            <h1 className="mb-4">Premium Vs Local Market Prices</h1>
+                            <h1 className="mb-4 text-dark">Premium Vs Local Market Prices</h1>
                             <div className="row">
                                 <div className="col-md-6 col-sm-12">
                                     <Chart
@@ -372,6 +300,7 @@ const Main = () => {
                                             }
                                         ]}
                                         options={{
+                                            colors: ["#6692D9", "#5BAE89"],
                                             stroke: {
                                                 curve: 'smooth'
                                             },
@@ -392,7 +321,7 @@ const Main = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingOne">
                                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    Total Volume Bought<code className="ml-2"> 1000Kgs</code>
+                                                    Total Volume Bought<code className="ml-2" style={{ color: "#B2453F" }}> 1000Kgs</code>
                                                 </button>
                                             </h2>
                                             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -404,7 +333,7 @@ const Main = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingTwo">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Premium Market Price Per Kg<code className="ml-2"> 6.32 USD</code>
+                                                    Premium Market Price Per Kg<code className="ml-2" style={{ color: "#B2453F" }}> 6.32 USD</code>
                                                 </button>
                                             </h2>
                                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -416,7 +345,7 @@ const Main = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingThree">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                    Local Market Price Per Kg<code className="ml-2"> 3.68USD</code>
+                                                    Local Market Price Per Kg<code className="ml-2" style={{ color: "#B2453F" }}> 3.68USD</code>
                                                 </button>
                                             </h2>
                                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -428,7 +357,7 @@ const Main = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingFour">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                                                    Premium Above Market Price<code className="ml-2"> 71.43%</code>
+                                                    Premium Above Market Price<code className="ml-2" style={{ color: "#B2453F" }}> 71.43%</code>
                                                 </button>
                                             </h2>
                                             <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -440,7 +369,7 @@ const Main = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingFive">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                                                    Total Payment to Farmer <code className="ml-2"> 6316 USD</code>
+                                                    Total Payment to Farmer <code className="ml-2" style={{ color: "#B2453F" }}> 6316 USD</code>
                                                 </button>
                                             </h2>
                                             <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
@@ -452,7 +381,7 @@ const Main = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingFive">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-                                                    Total Above Market Price<code className="ml-2"> 2632 USD</code>
+                                                    Total Above Market Price<code className="ml-2" style={{ color: "#B2453F" }}> 2632 USD</code>
                                                 </button>
                                             </h2>
                                             <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
@@ -473,7 +402,7 @@ const Main = () => {
                 </div>
             </div>
         </div>
-    )
+    );
 };
 
 export default Main;

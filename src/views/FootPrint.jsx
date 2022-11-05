@@ -20,7 +20,7 @@ var options = {
         height: 440,
         stacked: true
     },
-    colors: ['#008FFB', '#FF4560'],
+    colors: ['#6692D9', '#EA4443'],
     plotOptions: {
         bar: {
             horizontal: true,
@@ -84,7 +84,7 @@ export default function FootPrint() {
     return (
         <section data-aos="fade-up" data-aos-delay="200">
             <div className="container">
-                <h3 className="mb-4">Carbon Footprint</h3>
+                <h3 className="mb-4 text-dark">Carbon Footprint</h3>
                 <div className="card">
                     <div className="container-fluid">
                         <div className="wrapper row">
@@ -120,32 +120,32 @@ export default function FootPrint() {
                                         </thead>
                                         <tbody>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#8ed184"}}>Farm</td>
-                                                <td style={{backgroundColor: '#f277a8'}}>3.1</td>
+                                                <td style={{backgroundColor: "#5BAE89"}}>Farm</td>
+                                                <td style={{backgroundColor: '#EA4443'}} className="text-white">3.1</td>
                                             </tr>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#8ed184"}}>Processing</td>
-                                                <td style={{backgroundColor: '#f277a8'}}>0.2</td>
+                                                <td style={{backgroundColor: "#5BAE89"}}>Processing</td>
+                                                <td style={{backgroundColor: '#EA4443'}} className="text-white">0.2</td>
                                             </tr>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#8ed184"}}>Administration</td>
-                                                <td style={{backgroundColor: '#f277a8'}}>0.1</td>
+                                                <td style={{backgroundColor: "#5BAE89"}}>Administration</td>
+                                                <td style={{backgroundColor: '#EA4443'}} className="text-white">0.1</td>
                                             </tr>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#8ed184"}}>Transport - Local</td>
-                                                <td style={{backgroundColor: '#f277a8'}}>0.4</td>
+                                                <td style={{backgroundColor: "#5BAE89"}}>Transport - Local</td>
+                                                <td style={{backgroundColor: '#EA4443'}} className="text-white">0.4</td>
                                             </tr>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#8ed184"}}>Transport - Export</td>
-                                                <td style={{backgroundColor: '#f277a8'}}>7.0</td>
+                                                <td style={{backgroundColor: "#5BAE89"}}>Transport - Export</td>
+                                                <td style={{backgroundColor: '#EA4443'}} className="text-white">7.0</td>
                                             </tr>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#8ed184"}}>Carbon Offset</td>
-                                                <td style={{backgroundColor: '#f277a8'}}>22</td>
+                                                <td style={{backgroundColor: "#5BAE89"}}>Carbon Offset</td>
+                                                <td style={{backgroundColor: '#EA4443'}} className="text-white">22</td>
                                             </tr>
                                             <tr itemScope="row">
-                                                <td style={{backgroundColor: "#8ed184"}}>Final Carbon Footprint</td>
-                                                <td style={{backgroundColor: '#f277a8'}}>-11.2</td>
+                                                <td style={{backgroundColor: "#5BAE89"}}>Final Carbon Footprint</td>
+                                                <td style={{backgroundColor: '#EA4443'}} className="text-white">-11.2</td>
                                             </tr>
                                         </tbody>
                                     </table>
