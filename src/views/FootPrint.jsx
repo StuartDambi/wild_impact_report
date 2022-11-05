@@ -7,11 +7,12 @@ var options = {
         height: 440,
         stacked: true
     },
-    colors: ['#6692D9', '#EA4443'],
+    colors: ['#EA4443', '#EA4443','#EA4443','#EA4443','#EA4443','#EFB94F', '#5BAE89'],
     plotOptions: {
         bar: {
             horizontal: true,
             barHeight: '80%',
+            distributed: true
         },
     },
     dataLabels: {

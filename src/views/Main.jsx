@@ -69,7 +69,7 @@ const Main = () => {
 
 
                         <Prices />
-                        <FootPrint />
+                        
 
                         <div className="d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ background: "#D3D3D3" }}>
                             <h2 className="text-dark mt-4" style={{ paddingLeft: "40px", paddingTop: "40px" }}>Value Return Rate</h2>
@@ -115,7 +115,7 @@ const Main = () => {
 
                         </div>
 
-
+                        <FootPrint />
 
 
                         {/* Timeline Start */}
