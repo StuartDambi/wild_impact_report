@@ -30,8 +30,8 @@ var options = {
         }
     },
     yaxis: {
-        min: -5,
-        max: 5,
+        min: -25,
+        max: 10,
         title: {
             // text: 'Age',
         },
