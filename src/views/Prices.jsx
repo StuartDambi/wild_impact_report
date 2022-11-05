@@ -109,6 +109,18 @@ export default function Prices() {
                                 </div>
                             </div>
                         </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingSeven">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                                Price paid to farmer for 1 kg of roasted coffee<code className="ml-2" style={{ color: "#B2453F" }}> 9.47 USD</code>
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div className="accordion-body">
+                                Accounting for processing losses.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
