@@ -55,7 +55,7 @@ const Main = () => {
 
                         <section data-aos="fade-up" data-aos-delay="200">
                             <div className="container">
-                                <h1 className="text-dark fade-in " data-animation="fade-in">Impact Data.</h1>
+                                <h1 className="text-dark fade-in " style={{fontSize: "40px"}} data-animation="fade-in">Impact Data.</h1>
 
                                 <div className="cotainer">
                                     {/* <h3 className="text-dark">Where does the money go?</h3> */}
