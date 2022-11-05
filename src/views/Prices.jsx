@@ -81,7 +81,7 @@ export default function Prices() {
                             </h2>
                             <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    71.43%
+                                Wild paid this much more than the local market was offering
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ export default function Prices() {
                             </h2>
                             <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    6316 USD
+                                For this lot of coffee
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ export default function Prices() {
                             </h2>
                             <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                 <div className="accordion-body">
-                                    2632 USD
+                                The farmer made this much more from selling to Wild
                                 </div>
                             </div>
                         </div>
