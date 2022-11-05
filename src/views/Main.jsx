@@ -48,19 +48,26 @@ const Main = () => {
                     </div>
                     <div className="main">
 
-                        <h1 className="text-dark fade-in " data-animation="fade-in">Show me the money!</h1>
 
-                        <div className="cotainer">
-                            <h3 className="text-dark">Where does the money go?</h3>
-                            <p>One of the key numbers for us is how much value we can return to the origin of coffee. Let’s see how the coffee you are now drinking compares to a cup from the traditional coffee industry.</p>
-                            <p className="mt-4">
-                                If we are to reduce global inequality, move value needs to benefit the coffee producing countries
-                            </p>
-                        </div>
-
+                        <CoffeeLots />
                         <Farmer />
                         <Video />
-                        <CoffeeLots />
+
+                        <section data-aos="fade-up" data-aos-delay="200">
+                            <div className="container">
+                                <h1 className="text-dark fade-in " data-animation="fade-in">Show me the money!</h1>
+
+                                <div className="cotainer">
+                                    <h3 className="text-dark">Where does the money go?</h3>
+                                    <p>One of the key numbers for us is how much value we can return to the origin of coffee. Let’s see how the coffee you are now drinking compares to a cup from the traditional coffee industry.</p>
+                                    <p className="mt-4">
+                                        If we are to reduce global inequality, move value needs to benefit the coffee producing countries
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+
                         <Prices />
                         <FootPrint />
 
@@ -108,7 +115,7 @@ const Main = () => {
 
                         </div>
 
-                        
+
 
 
                         {/* Timeline Start */}
@@ -255,7 +262,7 @@ const Main = () => {
                         </div>
 
                         {/* Impact Graph */}
-                    
+
                     </div>
                 </div>
             </div>
