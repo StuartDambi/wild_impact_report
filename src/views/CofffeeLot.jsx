@@ -2,7 +2,7 @@ export default function CoffeeLots() {
     return (
         <section data-aos="fade-up" data-aos-delay="200">
             <div className="container">
-                <h3 className="mb-4 text-dark">Coffee Lot Details</h3>
+                <h3 className="mb-4 text-dark">The Pearl</h3>
                 <div className="card">
                     <div className="container-fliud">
                         <div className="wrapper row">
@@ -10,7 +10,7 @@ export default function CoffeeLots() {
                                 <img src="/OliveKisheroandIbraWild.jpg" width={500} height={400} alt="cofffee_kishero" />
                             </div>
                             <div className="details col-md-6">
-                                <h3 className="mt-4 text-dark">The Pearl</h3>
+                                <h3 className="mt-4 text-dark">Coffee Lot Details</h3>
                                 <div className="table-responsive">
                                     <table className="table">
                                         <thead>
