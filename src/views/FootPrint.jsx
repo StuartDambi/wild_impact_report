@@ -69,7 +69,7 @@ var options = {
         categories: ['Farm', 'Processing', 'Administration', 'Transport - Local', 'Transport - Export', 'Carbon Offset', 'Final Carbon Footprint'
         ],
         title: {
-            text: 'Kilograms'
+            text: 'Kilograms C02 removed Per Kg of Roasted Coffee'
         },
         labels: {
             formatter: function (val) {
@@ -99,11 +99,11 @@ export default function FootPrint() {
                                     series={[
                                         {
                                             name: 'Carbon FootPrint',
-                                            data: [3.1, 0.2, 0.1, 0.4, 7.0, 22,]
+                                            data: [3.1, 0.2, 0.1, 0.4, 7.0, 0,]
                                         },
                                         {
                                             name: 'Carbon FootPrint',
-                                            data: [0,0,0,0,0,0,-11.2]
+                                            data: [0,0,0,0,0, -22,-11.2]
                                         }
                                     ]}
 
@@ -141,7 +141,7 @@ export default function FootPrint() {
                                             </tr>
                                             <tr itemScope="row">
                                                 <td style={{backgroundColor: "#5BAE89"}}>Carbon Offset</td>
-                                                <td style={{backgroundColor: '#EA4443'}} className="text-white">22</td>
+                                                <td style={{backgroundColor: '#EA4443'}} className="text-white">-22</td>
                                             </tr>
                                             <tr itemScope="row">
                                                 <td style={{backgroundColor: "#5BAE89"}}>Final Carbon Footprint</td>
